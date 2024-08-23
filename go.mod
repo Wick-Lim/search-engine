@@ -3,6 +3,11 @@ module go-search-engine
 go 1.23.0
 
 require (
+	github.com/blevesearch/bleve/v2 v2.4.2
+	github.com/lib/pq v1.10.9
+)
+
+require (
 	cloud.google.com/go v0.112.1 // indirect
 	cloud.google.com/go/compute v1.24.0 // indirect
 	cloud.google.com/go/compute/metadata v0.2.3 // indirect
@@ -14,7 +19,6 @@ require (
 	github.com/MicahParks/keyfunc v1.9.0 // indirect
 	github.com/RoaringBitmap/roaring v1.9.3 // indirect
 	github.com/bits-and-blooms/bitset v1.12.0 // indirect
-	github.com/blevesearch/bleve/v2 v2.4.2 // indirect
 	github.com/blevesearch/bleve_index_api v1.1.10 // indirect
 	github.com/blevesearch/geo v0.1.20 // indirect
 	github.com/blevesearch/go-faiss v1.0.20 // indirect
@@ -45,7 +49,6 @@ require (
 	github.com/googleapis/enterprise-certificate-proxy v0.3.2 // indirect
 	github.com/googleapis/gax-go/v2 v2.12.3 // indirect
 	github.com/json-iterator/go v0.0.0-20171115153421-f7279a603ede // indirect
-	github.com/lib/pq v1.10.9 // indirect
 	github.com/mschoch/smat v0.2.0 // indirect
 	go.etcd.io/bbolt v1.3.7 // indirect
 	go.opencensus.io v0.24.0 // indirect
