@@ -1,4 +1,4 @@
-module go-search-engine
+module searchable
 
 go 1.23.0
 

@@ -31,10 +31,10 @@ COPY --from=builder /app/.index .index
 EXPOSE 8080
 
 # 11. Docker build-time ARG 설정
-ARG POSTGRES_CONN_ARG
+ARG POSTGRES_CONN_URL
 
 # 12. 환경 변수로 POSTGRES_CONN 설정
-ENV POSTGRES_CONN=${POSTGRES_CONN_ARG}
+ENV POSTGRES_CONN=${POSTGRES_CONN_URL}
 
 # 13. 컨테이너 시작 시 실행할 명령
 CMD ["./server"]
