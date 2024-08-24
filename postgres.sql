@@ -1,4 +1,5 @@
 CREATE TABLE documents (
     id SERIAL PRIMARY KEY,
-    content TEXT NOT NULL
+    original_content TEXT,
+    analyzed_content TEXT
 );
